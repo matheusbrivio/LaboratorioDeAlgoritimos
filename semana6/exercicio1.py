@@ -8,7 +8,7 @@ while opcao != 3:
     print("3 - Sair")
     opcao = int(input("Digite a opçao:"))
     if opcao == 1:
-        altura = int(input("Digite a altura:"))
+        altura = float(input("Digite a altura:"))
         idade = int(input("Digite a idade:"))
         somaaltura += altura
         somaidade += idade
