@@ -21,6 +21,5 @@ while opcao != 3:
         mediaaltura = somaaltura / contador
         mediaidade = somaidade / contador
         print("Media de altura:", mediaaltura, "Media de idade:", mediaidade)
-        
-print("Voce saiu!, aqui está as medias:", "Media de altura:", mediaaltura, "Media de idade:", mediaidade)
-
+    else:
+        print("Voce saiu!")
