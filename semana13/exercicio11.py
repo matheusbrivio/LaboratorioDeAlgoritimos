@@ -18,8 +18,7 @@ def testerepetiçao(lista):
         j = i + 1
         while j < len(lista):
             if lista [i] == lista[j]:
-                lista.pop(j)
-                lista.pop(i)
+                lista.remove(j)
             else:
                 j += 1
         i += 1
